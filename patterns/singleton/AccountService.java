@@ -2,6 +2,7 @@ package patterns.singleton;
 
 public class AccountService {
     public void deposit(){
+     //   DatabaseConnection dbConnection = new DatabaseConnection(); older code
         DatabaseConnection dbConnection = DatabaseConnection.getInstance();
         dbConnection.executeQuery("deposit money");
     }
