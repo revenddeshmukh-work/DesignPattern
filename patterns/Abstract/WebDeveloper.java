@@ -1,4 +1,4 @@
-package patterns.Abstarct;
+package patterns.Abstract;
 class WebDeveloper implements Employee{
     @Override
     public int salary(){

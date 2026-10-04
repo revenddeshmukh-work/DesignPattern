@@ -1,4 +1,4 @@
-package patterns.Abstarct;
+package patterns.Abstract;
 
 public class EmployeeFactory {
     public static Employee getEmployee(EmployeeAbstractFactory employee){

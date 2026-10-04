@@ -1,4 +1,4 @@
-package patterns.Abstarct;
+package patterns.Abstract;
 
 class AndroidDeveloper implements Employee{
     @Override
